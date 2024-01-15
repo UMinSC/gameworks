@@ -1,0 +1,60 @@
+p {
+  font-family: monospace;
+}
+
+table {
+  border-collapse: separate;
+}
+
+
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue;
+  padding: 1px;
+  font-size: 40px;
+  text-align: center !important;
+  font-family: arial, helvetica, sans-serif;
+  vertical-align: middle;
+  padding-inline-end: 0
+}
+
+td:not(:last-child),
+th:not(:last-child) {
+  padding-inline-end: 0
+}
+
+tr:first-child td {
+  border-top: none;
+}
+
+tr:nth-child(3) td {
+  border-bottom: none;
+}
+
+td:first-child {
+  border-left: none;
+}
+
+td:last-child {
+  border-right: none;
+}
+
+
+.ttt input[type="submit"] {
+  border: none;
+  background-color: transparent;
+  color: white;
+  box-shadow: none;
+  width: 45px;
+  height: 45px;
+
+}
+
+.red {
+  color: red;
+}
+
+button {
+  margin: 20px auto;
+}
